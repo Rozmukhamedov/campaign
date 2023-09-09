@@ -1,0 +1,121 @@
+.login {
+  background: url(../../assets/images/back_start.png) no-repeat;
+  background-size: 100% 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login img{
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 240px;
+  height: auto;
+}
+
+.login .login__form h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61.5597px;
+  line-height: 57px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.login .login__form .login__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .login__form .login__buttons button {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "RF Dewi";
+  padding: 10px 92px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #313131;
+  border: none;
+  margin-bottom: 16px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login .login__form .login__buttons button svg {
+  margin-right: 5px;
+}
+
+.login .login__form .input__field label {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.37px;
+  line-height: 92%;
+  color: #ffffff;
+}
+
+.login .login__form .input__field input {
+  margin-top: 10px;
+}
+
+.login .login__form a {
+  text-decoration: none;
+}
+
+.login .login__form button {
+  background: #1c54fc;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  margin-top: 16px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 92px;
+  border-radius: 5px;
+}
+
+.login .login__form .login__new-register h5 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.77px;
+  line-height: 100.5%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.login .login__form .login__new-register button {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "RF Dewi";
+  padding: 10px 92px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #313131;
+  border: none;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+.election__page {
+    background: url(../../assets/images/back_start.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    padding: 40px 350px;
+}
+
+.election__page h3 {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.5597px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.election__page a {
+    text-decoration: none;
+}
+
+.election__page .election__page-create {
+    background: #1C54FC;
+    border-radius: 14px;
+    width: 100%;
+    height: 230px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.election__page .election__page-create h5 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.election__page .election__page-create p {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    text-transform: inherit;
+    width: 100%;
+    color: #ffffff;
+}

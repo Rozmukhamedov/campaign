@@ -1,0 +1,215 @@
+.team {
+    background: #ffffff;
+    border-radius: 16px;
+    height: 233px;
+    padding: 18px;
+    overflow: hidden;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team__hover {
+    background: #ffffff;
+    transition: ease-in-out 0.6s;
+    height: 400px;
+    padding: 18px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.6s;
+
+    position: relative;
+}
+
+.team__top h2 {
+    font-family: "RF Dewi Bold";
+    font-weight: 900;
+    color: #313131;
+    font-size: 32px;
+}
+
+.team__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.team__btns {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.team__btn-add {
+    border: none;
+    outline: none;
+    background: #e9eeff;
+    border-radius: 10px;
+    color: #1c54fc;
+    padding: 4px 18px;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.team__btn-delete {
+    border: none;
+    outline: none;
+    background: #ffe9ec;
+    border-radius: 10px;
+    color: #f5415f;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 18px;
+}
+
+.teamitem__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamitem__left-info {
+    display: flex;
+    align-items: center;
+}
+
+.teamitem__left-info img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 7px;
+}
+
+.teamitem__wrapper {
+    padding: 6px;
+}
+
+.team__fullname-info p {
+    line-height: 17px;
+}
+
+.teamitem__name {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+.teamitem__job {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #9d9d9d;
+}
+
+.teamitem__right-info {
+    color: #9d9d9d;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.teamitem__checkbox {
+    padding-left: 16px;
+}
+
+.teamitem__checkbox .mantine-Checkbox-input {
+    border: 1px solid #f5415f;
+}
+
+/* /////////< ScrollBar >///////////*/
+.team__list {
+    overflow-y: scroll;
+    height: 150px;
+    cursor: pointer;
+    transition: all 0.2;
+}
+
+.team__list::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+    height: 7px;
+}
+
+.team__list::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;
+}
+
+/* Hover Scrollbar*/
+.team__list-hover {
+    overflow-y: scroll;
+    height: 270px;
+    cursor: pointer;
+}
+
+.team__list-hover::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+    height: 7px;
+}
+
+.team__list-hover::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;
+}
+
+.teamitem__closeicon-hidden {
+    display: none;
+}
+
+.team__btns-hidden {
+    display: none;
+}
+
+.teamitem__closeicon {
+    cursor: pointer;
+}
+
+.team__btn-delete-hidden {
+    display: none;
+}
+
+.team__form-input {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.team__form-input input {
+    width: 285px;
+    border: none;
+    outline: none;
+}
+
+.team__btn-delete-hidden {
+    display: none;
+}
+
+.team__input-block input {
+    border: none;
+    outline: none;
+    width: 380px;
+}
+
+.teamitem__checkbox input {
+    cursor: pointer;
+}

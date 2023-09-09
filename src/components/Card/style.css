@@ -1,0 +1,188 @@
+.card__wrapper {
+  width: 285px;
+  height: 540px;
+  display: flex;
+  gap: 24px;
+}
+.inner__card {
+  background: #f5f5f5;
+  width: 285px;
+  border-radius: 18px;
+}
+
+.card__img {
+  position: relative;
+  transition: ease-in-out 0.6s;
+  width: 285px;
+}
+
+.card__icons {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 9px;
+  display: flex;
+  gap: 8px;
+  transition: ease-in-out 0.2s;
+}
+.card__icons span {
+  font-size: 8px;
+}
+.card__icons-hidden {
+  display: none;
+}
+
+.card__img img {
+  height: 275px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.card__fullname {
+  font-family: "RF Dewi";
+  font-style: normal;
+  line-height: 1px;
+  font-size: 18px;
+  padding: 10px 10px;
+  display: flex;
+}
+.card__fullname p {
+  line-height: 16px;
+}
+
+.r1 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  line-height: 10px;
+  font-size: 18px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.sort {
+  width: 100%;
+  font-family: "RF Dewi";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 16px;
+}
+.sort h4 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.sort p {
+  margin: 0 16px;
+  background: white;
+  text-align: center;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  color: #313131;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  margin: 0 auto;
+  height: 30px;
+}
+.bg__color {
+  background-color: white;
+  border-radius: 3px;
+  width: 110px;
+  height: 40px;
+}
+.socicons {
+  display: flex;
+  gap: 8px;
+  padding-left: 10px;
+}
+.socicons img {
+  cursor: pointer;
+}
+.sort__inner p {
+  padding-left: 8px;
+}
+.gradient {
+  margin: 0 16px;
+
+  text-align: center;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  width: 250px;
+}
+.btn__addvoters {
+  margin: 16px 16px;
+}
+.btn__addvoters button {
+  color: rgba(49, 49, 49, 1);
+  background: #e9e9e9;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  outline: none;
+  border: none;
+  width: 250px;
+  cursor: pointer;
+}
+.card__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 6px;
+  height: 75px;
+}
+.voter__k {
+  background-color: rgba(28, 84, 252, 1);
+  color: white;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  line-height: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.hl {
+  height: 100%;
+  width: 100%;
+}
+.card__add-btn {
+  background: #f5f5f5;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 72px;
+}
+.card__add-btn i {
+  font-size: 90px;
+  color: #c9c9c9;
+  cursor: pointer;
+}
+
+.add2 {
+  background: #ffffff;
+  box-shadow: inset 0px 0px 1.51872px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  width: 300px;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+}

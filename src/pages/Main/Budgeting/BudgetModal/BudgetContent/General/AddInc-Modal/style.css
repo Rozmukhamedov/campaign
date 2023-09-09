@@ -1,0 +1,47 @@
+.modal__income {
+  border-radius: 16px;
+}
+
+.modal__income .modal__income-inner {
+  overflow: hidden;
+  position: relative;
+  padding: 10px 16px;
+}
+
+.modal__income .modal__income-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.modal__income .modal__income-top h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: #313131;
+}
+
+.modal__income .modal__income-top img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.modal__income .modal__income-inner form input {
+  background: #f5f5f5;
+  border: #f5f5f5;
+}
+
+.modal__income .modal__income-inner form textarea {
+  background: #f5f5f5;
+  border: #f5f5f5;
+  height: 120px;
+}
+
+.modal__income .modal__income-inner form .btn {
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.Edit__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.edit__info h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-size: 42px;
+}
+
+.Edit__wrapper input {
+  background-color: #e8e8e8;
+  width: 35vw;
+}
+
+.Edit__wrapper p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.sidebar__btn-save {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar__btn-save .btn__delete{
+  margin-left: 10px;
+  background: red;
+}

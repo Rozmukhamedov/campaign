@@ -1,0 +1,75 @@
+
+
+.candivoteritem{
+  display: flex;
+  align-items: center;
+}
+
+
+.candivoteritem__info {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  width: 100%;
+}
+
+.candivoteritem__soc-info2 {
+  display: flex;
+  align-items: center;
+
+}
+.candvoteritem__soc-flex {
+  display: flex;
+  align-items: center;
+}
+.candivoteritem__soc-info1 {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+.candivoteritem__name {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  gap: 3px;
+  display: flex;
+}
+.candivoteritem__job {
+  color: #9d9d9d;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+}
+.candivoteritem__soc-info2 {
+  color: #9d9d9d;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+width: 90px;
+overflow: hidden;
+}
+
+.candivoteritem__realnumer {
+  color: #1c54fc;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: "RF Dewi";
+  text-align: right;
+  font-feature-settings: "salt" on;
+}
+
+.cand-checkbox{
+ width: 80px;
+ display: flex;
+ justify-content: right;
+}
+.cand-checkbox input{
+  cursor: pointer;
+}

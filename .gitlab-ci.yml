@@ -1,0 +1,30 @@
+stages:
+    - build
+    - deploy
+build-dev:
+    stage: build
+    tags:
+        - react
+    script:
+        - echo "Building deploy package"
+        - yarn install
+        - CI=false yarn build
+        - echo "Build successful"
+    artifacts:
+        expire_in: 1 hour
+        paths:
+            - build
+    only:
+        - master
+deploy_dev:
+    stage: deploy
+    tags:
+        - react
+    script:
+        - echo "Deploying to server"
+        - sudo cp -R build/* /home/front
+        - echo "Deployed successfully"
+    environment:
+        name: development
+    only:
+        - master

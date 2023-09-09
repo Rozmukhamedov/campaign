@@ -1,0 +1,84 @@
+.votteradd__wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  height: 500px;
+  padding: 18px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.votteradd__wrapper::-webkit-scrollbar {
+  background: transparent;
+  width: 4px;
+  height: 8px;
+}
+
+.votteradd__wrapper::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 5px;
+}
+
+.voteradd__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voteradd__top h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: #313131;
+}
+
+.voteradd__top img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.voteradd__photo p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  color: #2b3239;
+  font-size: 16px;
+}
+
+.voteradd__photo button {
+  background: #1c54fc;
+  border-radius: 6px;
+  padding: 0 30px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.voteradd__download-img {
+  display: flex;
+  gap: 8px;
+}
+
+.voteradd__download-img img {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.votteradd__wrapper .voteradd__form button {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.voteradd__form input {
+  background: #f5f5f5;
+  border: #f5f5f5;
+}

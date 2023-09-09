@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400&family=Lato:ital,wght@0,300;0,700;1,300;1,400&family=Merriweather+Sans:ital,wght@0,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+
+:root {
+  --speed: 500ms;
+}
+ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "RF Dewi Bold";
+  src: url("./assets//Fonts/RFDewi-Bold\ \(1\).ttf");
+}
+@font-face {
+  font-family: "RF Dewi";
+  src: url("./assets//Fonts/RFDewi-Semibold.ttf");
+}
+@font-face {
+  font-family: "RF Dewi UltraBold";
+  src: url("./assets//Fonts/RFDewi-Ultrabold.ttf");
+}
+
+.hr {
+  background: #e8e8e8;
+  height: 1px;
+  width: 100%;
+}
+.mantine-Accordion-chevron {
+  display: none;
+}
+.mantine-Accordion-control {
+  padding: none;
+}
+.mantine-Accordion-item {
+  border: none;
+}
+.mantine-UnstyledButton-root {
+  padding: 0;
+}
+.mantine-Accordion-content {
+  padding: 0;
+}
+.hr__general {
+  background: rgba(245, 245, 245);
+  height: 1px;
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+.election__create {
+    background: url(../../../assets/images/back_start.png) no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.election__create .election__create-container {
+    width: 300px;
+    height: auto;
+}
+
+.election__create .election__create-container h2 {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 111%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.election__create .election__create-container p {
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.election__create .election__create-container input {
+    margin-bottom: 14px;
+}
+
+.election__create .election__create-container .btn {
+    width: 100%;
+    background: #1C54FC;
+    border-radius: 5px;
+    font-family: 'RF Dewi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}

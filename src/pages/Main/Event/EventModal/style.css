@@ -1,0 +1,8 @@
+.mantine-Paper-root {
+    border-radius: 5px;
+}
+
+.event__modal-inner {
+    display: flex;
+    height: 650px
+}

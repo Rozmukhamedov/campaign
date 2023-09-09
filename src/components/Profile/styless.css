@@ -1,0 +1,23 @@
+.mantine-Paper-root {
+  padding: 0;
+  top: 0;
+  border-radius: 50px;
+}
+.mantine-Modal-header {
+  display: none;
+}
+
+.inner__sidebar {
+  background-color: white;
+  height: 85vh;
+
+  color: rgba(49, 49, 49, 1);
+  display: flex;
+  margin: 0 auto;
+}
+.rightsidebar__wrapper {
+  padding: 28px 45px 32px 45px;
+  width: 70vw;
+  position: relative;
+  overflow-y: auto;
+}

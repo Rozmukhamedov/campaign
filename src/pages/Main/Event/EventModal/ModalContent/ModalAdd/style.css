@@ -1,0 +1,135 @@
+.modaladd__wrapper {
+    padding: 13px 10px;
+    width: 100%;
+}
+
+.modaladd__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modaladd__top img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.modaladd__top h2 {
+    color: #313131;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.modaladd_form-input {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.modaladd__form form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modaladd_btn-add {
+    border: none;
+    outline: none;
+    background: #1c54fc;
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 4px 18px;
+    width: 80px;
+    height: 36px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.modaladd__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* //////////// MODALADD ITEM ////////////*/
+
+.modaladd__item_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modaladd__soc-info {
+    display: flex;
+    align-items: center;
+}
+
+.modaladd__soc-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.modaladditem__name-job p {
+    line-height: 18px;
+    padding-left: 8px;
+}
+
+.modaladditem__name {
+    color: #313131;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.modaladditem__job {
+    color: #9d9d9d;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.modaladditem__phone-mail p {
+    color: #9d9d9d;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.modaladditem__checkbox {
+    padding-right: 16px;
+}
+
+.modaladditem__checkbox input {
+    width: 26px;
+    height: 26px;
+}
+
+/* ///////////// Scroll Bar ////////////// */
+.modaladd__users {
+    margin-top: 14px;
+    height: 425px;
+    overflow-y: scroll;
+}
+
+.modaladd__users::-webkit-scrollbar {
+    background: transparent;
+    width: 4px;
+    height: 8px;
+}
+
+.modaladd__users::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;
+}

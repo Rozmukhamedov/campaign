@@ -1,0 +1,23 @@
+.skeleton_wrapper {
+    width: 90%;
+    margin: 25px auto;
+    background-color: #FFFFFF;
+}
+
+.skeleton_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skeleton_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skeleton_body:first-child {
+    text-align: center;
+}

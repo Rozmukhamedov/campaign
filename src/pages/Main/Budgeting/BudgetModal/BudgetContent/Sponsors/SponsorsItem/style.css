@@ -1,0 +1,235 @@
+.sponsoritem__wrapper {
+  background: #ffffff;
+  box-shadow: inset 0px 0px 1.51872px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sponsoritem__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsoritem__top-info {
+  display: flex;
+}
+
+.sponsoritem__top-info .logo img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 11px;
+}
+
+.sponsoritem__socicons {
+  display: flex;
+  gap: 8px;
+}
+
+.sponsoritem__socicons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.sponsoritem__top-info h2 {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.sponsoritem__updateicon img {
+  cursor: pointer;
+}
+
+.accordion__sponsor_root {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.sponsoritem__users-wrapper {
+  border-top: 1px solid #d9d9d9;
+}
+
+.sponsoritem__users-wrapper {
+  padding: 10px 0;
+}
+
+.sponsoritem__amount-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsoritem__amount-info h3 {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sponsoritem__amount-info button {
+  background: #1c54fc;
+  box-shadow: inset 0px 0px 0.737318px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 11px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 26px;
+}
+
+.sponsoritem__amount {
+  margin-top: 18px;
+}
+
+.sponsoritem__amount-budget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sponsor__amaount-date {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.sponsoritem__amount-budget span {
+  border: 1px dashed #bbbbbb;
+  height: 2px;
+  display: block;
+  width: 72%;
+  margin-top: 15px;
+}
+
+.sponsor__amaount-budget {
+  color: #1c54fc;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sponsoritem__users-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.accordion__sponsor_root .mantine-Accordion-chevron {
+  display: block;
+}
+
+.sponsoritem__users-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sponsoritem__users-left img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sponsoritem__fullname {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.sponsoritem__job,
+.sponsoritem__phone,
+.sponsoritem__mail {
+  color: #878787;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.sponsoritem__pm-control {
+  margin-left: 20px;
+  padding-top: 2px;
+}
+
+.sponsoritem__cont-pos {
+  position: relative;
+  padding: 10px 0;
+}
+
+.sponsoritem__cont-pos:hover{
+  background: none;
+}
+
+.sponsoritem__acc-control {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.accordion__sponsor_root .mantine-Accordion-chevron {
+  display: block;
+  position: absolute;
+  left: 90px;
+  top: 11px;
+}
+
+.sponsoritem__acc-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sponsoritem__acc-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.sponsoritem__acc-delete {
+  background: #e2425c;
+  box-shadow: inset 0px 0px 0.737318px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.sponsoritem__acc-add {
+  cursor: pointer;
+  background: #1c54fc;
+  box-shadow: inset 0px 0px 0.737318px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 2px 18px;
+}

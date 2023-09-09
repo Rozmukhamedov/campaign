@@ -1,0 +1,122 @@
+.event {
+    background: #ffffff;
+    height: 233px;
+    padding: 18px;
+    border-radius: 16px;
+}
+
+.item__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.event__list {
+    overflow-y: scroll;
+    height: 160px;
+    padding-right: 7px;
+}
+
+.event__list::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+    height: 7px;
+}
+
+.event__list::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;
+}
+
+.item__checkbox-title {
+    display: flex;
+    align-items: center;
+}
+
+.item__checkbox-title h3 {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.list__item p {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.event__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event__top h2 {
+    font-family: "RF Dewi Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    color: #313131;
+}
+
+.event__add-btn button {
+    border: none;
+    outline: none;
+    background: #e9eeff;
+    border-radius: 10px;
+    color: #1c54fc;
+    padding: 4px 18px;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.item__checkbox-title {
+    display: flex;
+    padding: 10px 0;
+}
+
+.item__checkbox-title input {
+    cursor: pointer;
+}
+
+.event__checkbox {
+    background-color: #1c54fc;
+    color: #ffffff;
+    width: 18px;
+    height: 18px;
+    outline: none;
+}
+
+.event__checkbox:disabled {
+    border-color: #1c54fc !important;
+    background-color: #1c54fc;
+    color: #1c54fc;
+
+}
+
+input[type=checkbox]:checked:disabled {
+    border-color: #1c54fc !important;
+    background-color: #1c54fc !important;
+    color: #1c54fc !important;
+}
+
+.line {
+    text-decoration: line-through;
+    color: gray;
+}

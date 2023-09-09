@@ -1,0 +1,114 @@
+.table__wrapper {
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+.table__wrapper h2 {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 16px 0 0 14px;
+}
+.table thead tr th {
+  border-bottom: none;
+  padding: 16px;
+  margin-top: 5rem;
+}
+
+.table thead tr th h4 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 70%;
+  text-align: center;
+  color: #313131;
+}
+
+.table tbody tr td {
+  padding: 5px 10px;
+}
+
+.table .table__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  text-transform: capitalize;
+}
+
+.table .table__info img {
+  border-radius: 25px;
+  margin-right: 14px;
+  object-fit: fill;
+}
+
+.table .table__percent {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 70%;
+  text-align: center;
+  color: #313131;
+}
+
+.table .table__numbers {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 70%;
+  text-align: center;
+  color: #1c54fc;
+}
+
+.table .table__predictions {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 70%;
+  text-align: center;
+  color: #313131;
+}
+.table__info {
+  text-align: left;
+}
+.table__info p {
+  padding: 0 6px;
+}
+.table__info img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ///////////////////////////////////////////// */
+.skleton__table{
+  height: 50vh;
+  width: 100%;
+  padding: 16px 16 50px 16px;
+}
+.skleton__table-wrp {
+  display: flex;
+  align-items: center;
+ padding-bottom: 8px;
+ margin-top: 12px;
+}
+.skleton__table h2{
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 18px 14px;
+ 
+}

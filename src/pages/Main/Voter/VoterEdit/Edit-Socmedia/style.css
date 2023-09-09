@@ -1,0 +1,68 @@
+.votereditsoc__wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  height: 500px;
+  padding: 16px;
+  position: relative;
+}
+.votereditsoc__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.votereditsoc__top h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: #313131;
+}
+.votereditsoc__top img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.votereditsoc__top p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  color: #2b3239;
+  font-size: 16px;
+}
+.votereditsoc__form p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  color: #2b3239;
+  font-size: 16px;
+  padding: 16px 0 6px 0px;
+}
+.votereditsoc__choose-status {
+  padding-top: 20px;
+  display: flex;
+  gap: 2rem;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+.votereditsoc__choose-status span {
+  cursor: pointer;
+}
+.votereditsoc__btn-Save {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.votereditsoc__btn-Save button {
+  width: 90%;
+}
+.votereditsoc__form input {
+  background: #f5f5f5;
+  border: #f5f5f5;
+  font-size: 14px;
+}

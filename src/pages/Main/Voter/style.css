@@ -1,0 +1,297 @@
+.voter {
+    background: #ffffff;
+    border-radius: 16px;
+    height: 500px;
+    padding: 18px;
+}
+
+.vooter__scrollbar {
+    overflow-y: scroll;
+    height: 270px;
+
+    /* old */
+    padding-right: 30px;
+
+    /* new */
+
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.vooter__scrollbar::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+    height: 7px;
+}
+
+.vooter__scrollbar::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border-radius: 5px;
+}
+
+.vooter__wrapper {
+    padding-bottom: 12px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.vooter__top h1 {
+    font-family: "RF Dewi Bold";
+    font-weight: 900;
+    color: #313131;
+    font-size: 32px;
+}
+
+.vooter__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.skeleton__loader {
+
+}
+
+.vooter__btns {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.vooter__btns img {
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+.vooter_btn-add {
+    border: none;
+    outline: none;
+    background: #e9eeff;
+    border-radius: 10px;
+    color: #1c54fc;
+    padding: 4px 18px;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.vooter_btn-delete {
+    border: none;
+    outline: none;
+    background: #ffe9ec;
+    border-radius: 10px;
+    color: #f5415f;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 18px;
+}
+
+.vooter__input {
+    padding-bottom: 16px;
+}
+
+.vooter__change {
+    display: flex;
+    margin-bottom: 10px;
+    /* position: relative; */
+}
+
+.vooter__change h3 {
+    color: #313131;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    padding-right: 6px;
+}
+
+.vooter__border {
+    width: 100%;
+    height: 1.8px;
+    /* position: absolute; */
+    margin-top: 20px;
+    bottom: 5px;
+}
+
+.vooter__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vooter__info-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 145px;
+}
+
+.voter_info_container {
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.outline_colored_image {
+    width: 45px;
+    height: 45px;
+    border-width: 2px;
+    border-style: solid;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.outline_colored_image img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vooter__name h4 {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+}
+
+.vooter__job p {
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #878787;
+}
+
+.vooter__info-center {
+    color: #878787;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    /* align-items: center; */
+}
+
+.vooter__info-center p {
+    line-height: 20px;
+}
+
+.vooter__info-right {
+    color: #1c54fc;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    width: 40px;
+    text-align: center;
+}
+
+.vooter__info-right .mantine-1nn81ez {
+    border: 1.6px solid #f5415f;
+}
+
+.vooter__info-right .mantine-1nn81ez:checked {
+    background-color: #f5415f;
+    border-color: #f5415f;
+}
+
+/* .vooter__info-right .mantine-Checkbox-input {
+  border: 1.2px solid red;
+  background-color: red;
+  color: white;
+} */
+
+.vooter__filter-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 6px 0;
+}
+
+.filtered_colors {
+    justify-content: space-between;
+    gap: 9px;
+}
+
+button.filter_btn_colors {
+    padding: 8px 11px !important;
+}
+
+.vooter__filter-btns button {
+    border: none;
+    outline: none;
+    background: #f1f3f5;
+    border-radius: 12px;
+    color: #585757;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 8px 18px;
+}
+
+.vooter__filter-btns button:hover {
+    /*background: #303030;*/
+    /*color: #ffffff;*/
+    transition: ease-in-out 0.3s;
+}
+
+.vooter__filter-btns .active {
+    background: #303030;
+    color: #ffffff;
+    transition: ease-in-out 0.3s;
+}
+
+.filter__active-btn {
+    background: #313131;
+    color: #ffffff;
+}
+
+.voterbtn__hidden {
+    display: none;
+}
+
+.vooter__input-delete {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.vooter__input input {
+    width: 380px;
+    border: none;
+    outline: none;
+}
+
+.vooter__input-delete input {
+    width: 285px;
+    border: none;
+    outline: none;
+}
+
+.vooter_btn-delete-hidden {
+    display: none;
+}

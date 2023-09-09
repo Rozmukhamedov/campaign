@@ -1,0 +1,144 @@
+.addchoose {
+  display: flex;
+  flex-direction: column;
+}
+.addchoose__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.addchoose__top img {
+  cursor: pointer;
+}
+.addchoose__top h2 {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+}
+.addchoose__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.addchoose__list-hover {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.addchoose__input {
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addchoose__input input {
+  border: none;
+  outline: none;
+  width: 290px;
+}
+
+.addchoose__input button {
+  background: #1c54fc;
+  color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  height: 28px;
+  width: 64px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+/* ///////////// ChooseeItem //////////////////////// */
+.chooseitem {
+  display: flex;
+  justify-content: space-between;
+}
+.chooseitem__left-info {
+  display: flex;
+  align-items: center;
+}
+
+.chooseitem__left-info img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 7px;
+}
+.teamitem__wrapper {
+  padding: 6px;
+}
+.team__fullname-info p {
+  line-height: 17px;
+}
+
+.chooseitem__name {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #313131;
+}
+.chooseitem__job {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #9d9d9d;
+}
+.chooseitem__right-info {
+  color: #9d9d9d;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+}
+.chooseitem__checkbox {
+  padding-left: 16px;
+}
+.chooseitem__right-info .mantine-f8r6ly {
+  border: 1px solid #1c54fc;
+}
+
+/* ////// Scroll Bar /////// */
+.addchoose__list {
+  overflow-y: scroll;
+  height: 120px;
+  cursor: pointer;
+  transition: all 0.2;
+}
+.addchoose__list::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+  height: 7px;
+}
+.addchoose__list::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 5px;
+}
+/* Hover Scrollbar*/
+.addchoose__list-hover {
+  overflow-y: scroll;
+  height: 255px;
+  cursor: pointer;
+}
+.addchoose__list-hover::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+  height: 7px;
+}
+.addchoose__list-hover::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 5px;
+}

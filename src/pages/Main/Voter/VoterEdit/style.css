@@ -1,0 +1,71 @@
+.votteredit__wrapper {
+  background: #ffffff;
+  border-radius: 16px;
+  height: 500px;
+  padding: 16px;
+  position: relative;
+}
+.voteredit__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.voteredit__top h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  color: #313131;
+}
+.voteredit__top img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.voteredit__photo p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  color: #2b3239;
+  font-size: 16px;
+}
+.voteredit__photo button {
+  background: #1c54fc;
+  border-radius: 6px;
+  padding: 0 30px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.voteredit__download-img {
+  display: flex;
+  gap: 8px;
+}
+.voteredit__download-img img {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voteredit__btn-next {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.voteredit__btn-next button {
+  width: 90%;
+}
+.voteredit__form input {
+  background: #f5f5f5;
+  border: #f5f5f5;
+}

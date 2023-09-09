@@ -1,0 +1,142 @@
+.candidatevoters {
+  width: 350px;
+  height: 540px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 1.51872px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  margin-left: 6px;
+  padding: 12px;
+}
+.candidatevoters h2 {
+  font-size: 26px;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 900;
+  color: #313131;
+  line-height: 24px;
+}
+.candidatevoter__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.candidatevoter__top {
+cursor: pointer;
+}
+.cand__voters p {
+  color: #1c54fc;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+}
+.cand__voters p span {
+  color: #313131;
+  font-size: 20px;
+}
+.candidatevoters__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.candidatevoters__form input {
+  border: none;
+  width: 250px;
+  outline: none;
+  font-size: 12px;
+  margin: 14px 0;
+}
+.candidatevoters__btn-add {
+  background: #e9eeff;
+  color: #1c54fc;
+  width: 54px;
+  height: 28px;
+  font-size: 12px;
+  padding: 1px;
+}
+.candidatevoters__btn-add:hover {
+  background: #e9eefe;
+  color: #1c54fc;
+}
+.candidatevoters__btn-delete {
+  background: #FFE9EC;
+  color: #F5415F;
+  width: 62px;
+  height: 28px;
+  font-size: 12px;
+  padding: 1px;
+}
+.candidatevoters__btn-delete:hover {
+  background: #FFE6EC;
+  color: #F5415F;
+
+}
+.candidatevoters__list{
+  height: 380px;
+  overflow-y: scroll;
+  padding-right: 6px;
+}
+.candidatevoters__list::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+  height: 7px;
+}
+.candidatevoters__list::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 5px;
+}
+.cand__hidden{
+  display: none;
+}
+.voter__rev-grid{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.candivoteritem__top-line {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.candvot__vip-line{
+  width: 100%;
+  height: 2px;
+  background: #313131;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.candivoteritem__top-line p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+
+.candvot__gold-line{
+  width: 100%;
+  height: 2px;
+  background: #FBC22E;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+
+.candvot__bronze-line{
+  width: 100%;
+  height: 2px;
+  background: #AF713F;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+.candvot__silver-line{
+  width: 100%;
+  height: 2px;
+  background: #7E7E7E;
+  margin-top: 18px;
+  border-radius: 5px;
+}

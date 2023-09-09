@@ -1,0 +1,62 @@
+.addamount_modal-root {
+  margin-top: 60px;
+}
+.addamount_wrapper {
+  padding: 26px;
+
+  height: 70%;
+}
+
+.addamount__top {
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+.addamount__top h2 {
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+}
+.addamount__top img {
+  cursor: pointer;
+}
+
+.addamount__form input {
+  background: #f5f5f5;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
+.addamount__form {
+}
+.addamount__btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 20px;
+}
+.addamount__btn button {
+  width: 85%;
+  background: #1c54fc;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+.addamount_modal-root .mantine-Paper-root {
+  position: relative;
+  height: 70vh;
+  border-radius: 16px;
+}

@@ -1,0 +1,85 @@
+/*Please do not change mantine styles in order to not affact to whole project*/
+.mantine-l553vn {
+  border-radius: 16px;
+}
+
+.mantine-31cfnj {
+  top: 28%;
+  height: 28vh;
+}
+
+.mmantine-31cfnj {
+  border-radius: 10px;
+}
+
+.deletemodal__inner {
+  padding: 20px;
+  position: relative;
+}
+
+.modaldelete__top img {
+  position: absolute;
+  cursor: pointer;
+  right: 16px;
+  top: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.modaldelete__top h2 {
+  text-align: center;
+  color: #313131;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  padding-top: 14px;
+  line-height: 28px;
+}
+
+.modaldelete__desc p {
+  color: #313131;
+  text-align: center;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px 0;
+}
+
+.deletemodal__btns {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 8px;
+}
+
+.modal__delete-cancel {
+  background: #1c54fc;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 0 14px;
+  cursor: pointer;
+  height: 28px;
+}
+
+.modal__delete-btn {
+  background: #f5415f;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 0 14px;
+  cursor: pointer;
+  height: 28px;
+}

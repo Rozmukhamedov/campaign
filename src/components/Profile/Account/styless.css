@@ -1,0 +1,176 @@
+.Profile__sidebar-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile__sidebar-right h2 {
+  color: rgba(49, 49, 49, 1);
+  font-size: 42px;
+  font-family: "RF Dewi";
+}
+
+.sidebar__photo {
+  padding: 10px 0;
+  display: flex;
+}
+
+.sidebar__photo img{
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.sidebar__photo p {
+  font-family: "RF Dewi";
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.sidebar__photo button {
+  background-color: rgba(28, 84, 252, 1);
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-size: 14px;
+  width: 132px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.personal__info p {
+  font-family: "RF Dewi";
+  padding-bottom: 10px;
+}
+
+.personal__btns {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.personal__btns button {
+  background-color: rgba(28, 84, 252, 1);
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-size: 14px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change__email {
+  display: flex;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #9d9d9d;
+  font-family: "RF Dewi";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Profile__sidebar-right Input {
+  width: 35vw;
+  margin-bottom: 8px;
+}
+
+.sidebar__btn-save button {
+  background-color: rgba(28, 84, 252, 1);
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-size: 14px;
+  width: 132px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar__btn-save button:hover {
+  box-shadow: 1px 0px 5px 8px #f2f2f2;
+}
+
+.sidebar__btn-save {
+  margin-top: 30px;
+}
+
+.none {
+  display: none;
+}
+
+.changemail .changemail__email{
+  position: relative;
+}
+
+.changemail .changemail__email .changemail__email-position {
+  position: relative;
+}
+
+.changemail .changemail__email .changemail__email-position button{
+  position: absolute;
+  top: 0;
+  left: 32vw;
+  border: none;
+  background: none;
+  height: 42px;
+  z-index: 2;
+}
+
+.changemail .changemail__email .changemail__email-position .active svg path{
+  fill: #1C54FC;
+}
+
+.changemail input {
+  width: 35vw;
+  background-color: rgba(232, 232, 232, 1);
+}
+
+.changemail h2 {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-size: 42px;
+}
+
+.changemail p {
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.changemail__btn-save {
+  position: absolute;
+  bottom: 12px;
+}
+
+.changemail__btn-save button {
+  background-color: rgba(157, 157, 157, 1);
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-family: "RF Dewi";
+  font-size: 14px;
+  width: 132px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.changemail__info p {
+  margin-top: 12px;
+  width: 330px;
+}
+
+.changemail__info input {
+  width: 20vw;
+}
+
+.rightsidebar__wrapper .hr {
+  background: #e8e8e8;
+}

@@ -1,0 +1,96 @@
+.header {
+    width: 100%;
+    padding: 12px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    z-index: 2;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__avatar {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.menu-trigger h3 {
+    font-size: 20px;
+    font-family: "RF Dewi";
+}
+
+.menu-trigger p {
+    font-family: "RF Dewi";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: end;
+}
+
+.menu-trigger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.dropdown-menu {
+    position: fixed;
+    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    right: 32px;
+    z-index: 5;
+    visibility: visible;
+    background-color: #fff;
+    padding: 10px 0 0;
+    width: 230px;
+}
+
+.dropdown-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--speed) ease;
+}
+
+.dropdown-menu.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: var(--speed) ease;
+}
+
+.hokage__dropdown {
+    position: fixed;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    right: -5px;
+    z-index: 5;
+    visibility: visible;
+    background-color: #fff;
+    width: 200px;
+}
+
+.menu-trigger .div{
+    position: relative;
+}
+
+.hokage__dropdown.hokage__active {
+    opacity: 1;
+    visibility: visible;
+    transition: var(--speed) ease;
+}
+
+.hokage__dropdown.hokage__inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: var(--speed) ease;
+}

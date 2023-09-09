@@ -1,0 +1,106 @@
+.addteam {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 10px 18px;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.addteam__top {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.addteam__top img {
+    cursor: pointer;
+}
+
+.addteam__top h2 {
+    color: #313131;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.addteam__download-img {
+    display: flex;
+    margin-top: 6px;
+}
+
+.addteam__download-img img {
+    width: 38px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.addteam__download-img button {
+    background: #1c54fc;
+    color: #ffffff;
+    border-radius: 6px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.addteam__photo p {
+    color: #313131;
+    font-style: normal;
+    font-family: "RF Dewi";
+    font-weight: 500;
+}
+
+.addteamsoc__form p {
+    color: #313131;
+    font-style: normal;
+    font-family: "RF Dewi";
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.organization {
+    margin: 12px 0;
+}
+
+.addteamsoc__form-control input {
+    background: #f5f5f5;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.addteam-btn {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    width: 100%;
+}
+
+.addteam-btn button {
+    background: #1c54fc;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 92%;
+
+    letter-spacing: 1px;
+    height: 36px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 10px;
+}
